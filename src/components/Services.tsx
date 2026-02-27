@@ -9,11 +9,24 @@ const services = [
     description: "Complete dust removal, thermal paste replacement, and internal cleaning to keep your PC cool and quiet.",
   },
   {
+    icon: Zap,
+    title: "Performance Tuning",
+    price: "30 TND",
+    description: "We provide our own custom Windows edition, PerformanceHub OS, designed to optimize your computer for better speed, performance, and overall user experience.",
+  },
+   {
+    icon: Gift,
+    title: "All in One Service",
+    price: "80 TND",
+    description: "Complete PC cleaning, performance tuning, and hardware diagnostics in one service.",
+  },
+  {
     icon: Wrench,
     title: "Diagnostics & Repair",
     price: "20 TND",
     description: "Full system diagnostics to identify issues, with expert repair services.",
   },
+ 
   {
     icon: Cpu,
     title: "PC Assembly",
@@ -26,18 +39,8 @@ const services = [
     price: "60 TND",
     description: "Deep cleaning for PlayStation, Xbox, and Nintendo consoles. Dust removal, thermal paste replacement, and fan maintenance.",
   },
-  {
-    icon: Gift,
-    title: "All in One Service",
-    price: "80 TND",
-    description: "Complete PC cleaning, performance tuning, and hardware diagnostics in one service.",
-  },
-  {
-    icon: Zap,
-    title: "Performance Tuning",
-    price: "30 TND",
-    description: "We provide our own custom Windows edition, PerformanceHub OS, designed to optimize your computer for better speed, performance, and overall user experience.",
-  },
+  
+  
 ];
 
 const containerVariants = {
