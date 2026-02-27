@@ -106,7 +106,7 @@ const BookingForm = () => {
                 required
                 maxLength={100}
                 className="w-full px-4 py-3 rounded-lg bg-background/50 border border-border focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary/50 focus:shadow-[0_0_15px_hsl(142_70%_50%_/_0.1)] transition-all text-foreground"
-                placeholder="Flen Ben Foulen"
+                placeholder="Amir Dimassi"
               />
             </div>
             <div>
