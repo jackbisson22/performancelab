@@ -5,20 +5,26 @@ const services = [
   {
     icon: Monitor,
     title: "PC Deep Cleaning",
-    price: "55 TND",
+    price: "80 TND",
     description: "Complete dust removal, thermal paste replacement, and internal cleaning to keep your PC cool and quiet.",
   },
   {
     icon: Zap,
-    title: "Performance Tuning & Custom OS Install",
+    title: "Performance Tuning",
     price: "20 TND",
     description: "We provide our own custom Windows edition, PerformanceHub OS, designed to optimize your computer for better speed, performance, and overall user experience.",
+  },
+    {
+    icon: Zap,
+    title: "Windows Install 10/11 , Office , Formatage",
+    price: "20 TND",
+    description: "Fresh installation of Windows 10 or 11, including activation and driver setup.",
   },
    {
     icon: Gift,
     title: "All in One Service",
-    price: "70 TND",
-    description: "Deep Cleaning, performance tuning.",
+    price: "80 TND",
+    description: "Deep Cleaning, Performance tuning.",
   },
   {
     icon: Wrench,
