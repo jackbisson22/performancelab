@@ -106,7 +106,7 @@ const BookingForm = () => {
                 required
                 maxLength={100}
                 className="w-full px-4 py-3 rounded-lg bg-background/50 border border-border focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary/50 focus:shadow-[0_0_15px_hsl(142_70%_50%_/_0.1)] transition-all text-foreground"
-                placeholder="Amir Dimassi"
+                placeholder="Flen Ben Foulen"
               />
             </div>
             <div>
@@ -119,7 +119,7 @@ const BookingForm = () => {
                 required
                 maxLength={255}
                 className="w-full px-4 py-3 rounded-lg bg-background/50 border border-border focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary/50 focus:shadow-[0_0_15px_hsl(142_70%_50%_/_0.1)] transition-all text-foreground"
-                placeholder="john@example.com"
+                placeholder="foulen@gmail.com"
               />
             </div>
           </div>
@@ -134,7 +134,7 @@ const BookingForm = () => {
                 onChange={handleChange}
                 maxLength={20}
                 className="w-full px-4 py-3 rounded-lg bg-background/50 border border-border focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary/50 focus:shadow-[0_0_15px_hsl(142_70%_50%_/_0.1)] transition-all text-foreground"
-                placeholder="(555) 123-4567"
+                placeholder="+216 55595959"
               />
             </div>
             <div>
@@ -148,11 +148,11 @@ const BookingForm = () => {
               >
                 <option value="">Select a service</option>
                 <option value="PC Deep Cleaning">PC Deep Cleaning</option>
+                <option value="Performance Tuning">Performance Tuning & Custom OS Install</option>
+                <option value="Console Repair">All In One Service</option>
                 <option value="Diagnostics & Repair">Diagnostics & Repair</option>
                 <option value="PC Assembly">PC Assembly</option>
                 <option value="Console Cleaning">Console Cleaning</option>
-                <option value="Console Repair">All In One Service</option>
-                <option value="Performance Tuning">Performance Tuning</option>
               </select>
             </div>
           </div>
@@ -166,7 +166,7 @@ const BookingForm = () => {
               rows={4}
               maxLength={1000}
               className="w-full px-4 py-3 rounded-lg bg-background/50 border border-border focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary/50 focus:shadow-[0_0_15px_hsl(142_70%_50%_/_0.1)] transition-all text-foreground resize-none"
-              placeholder="Describe your issue or what you need..."
+              placeholder="Edalel Ya Behi"
             />
           </div>
 

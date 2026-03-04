@@ -5,13 +5,13 @@ const contactCards = [
   {
     icon: MapPin,
     title: "Address",
-    content: "Tunis, Tunisia",
+    content: "14 Rue Menzel Bouzelfa l'aouina & a domicile",
     color: "primary" as const,
   },
   {
     icon: Clock,
     title: "Business Hours",
-    content: "Mon - Fri: 9:00 AM - 6:00 PM",
+    content: "Monday - Saturday: 8:00 AM - 6:00 PM",
     color: "secondary" as const,
   },
   {
