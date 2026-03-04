@@ -5,7 +5,7 @@ import BookingForm from "@/components/BookingForm";
 import Location from "@/components/Location";
 import SocialLinks from "@/components/SocialLinks";
 import Footer from "@/components/Footer";
-import brandsBg from "@/assets/brands-bg.png";
+import brandsBg from "@/assets/7892917.png";
 
 const Index = () => {
   return (

@@ -5,13 +5,13 @@ const services = [
   {
     icon: Monitor,
     title: "PC Deep Cleaning",
-    price: "80 TND",
+    price: "70 TND",
     description: "Complete dust removal, thermal paste replacement, and internal cleaning to keep your PC cool and quiet.",
   },
   {
     icon: Zap,
     title: "Performance Tuning",
-    price: "20 TND",
+    price: "40 TND",
     description: "We provide our own custom Windows edition, PerformanceHub OS, designed to optimize your computer for better speed, performance, and overall user experience.",
   },
     {
@@ -23,7 +23,7 @@ const services = [
    {
     icon: Gift,
     title: "All in One Service",
-    price: "80 TND",
+    price: "90-110 TND",
     description: "Deep Cleaning, Performance tuning.",
   },
   {
@@ -36,13 +36,13 @@ const services = [
   {
     icon: Cpu,
     title: "PC Assembly",
-    price: "60 TND",
+    price: "70 TND",
     description: "Custom PC builds tailored to your needs, with professional assembly, cable management, and thorough testing.",
   },
   {
     icon: Gamepad2,
     title: "Console Cleaning",
-    price: "60 TND",
+    price: "70 TND",
     description: "Deep cleaning for PlayStation, Xbox, and Nintendo consoles. Dust removal, thermal paste replacement, and fan maintenance.",
   },
   

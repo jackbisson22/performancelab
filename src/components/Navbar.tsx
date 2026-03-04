@@ -5,7 +5,7 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 z-50 w-full bg-black/80 backdrop-blur-md border-b border-white/10">
+    <nav className="fixed top-0 z-50 w-full bg-gray-800/90 backdrop-blur-md border-b border-white/10">
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex items-center justify-between h-16">
           
@@ -59,9 +59,17 @@ const Navbar = () => {
               viewBox="0 0 24 24"
             >
               {menuOpen ? (
-                <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M6 18L18 6M6 6l12 12"
+                />
               ) : (
-                <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M4 6h16M4 12h16M4 18h16"
+                />
               )}
             </svg>
           </button>
@@ -70,15 +78,27 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {menuOpen && (
-        <div className="md:hidden bg-black/95 border-t border-white/10">
+        <div className="md:hidden bg-gray-800/95 border-t border-white/10">
           <div className="flex flex-col px-6 py-4 gap-4">
-            <a href="#hero" onClick={() => setMenuOpen(false)} className="text-gray-300 hover:text-white">
+            <a
+              href="#hero"
+              onClick={() => setMenuOpen(false)}
+              className="text-gray-300 hover:text-white"
+            >
               About Us
             </a>
-            <a href="#services" onClick={() => setMenuOpen(false)} className="text-gray-300 hover:text-white">
+            <a
+              href="#services"
+              onClick={() => setMenuOpen(false)}
+              className="text-gray-300 hover:text-white"
+            >
               Services
             </a>
-            <a href="#location" onClick={() => setMenuOpen(false)} className="text-gray-300 hover:text-white">
+            <a
+              href="#location"
+              onClick={() => setMenuOpen(false)}
+              className="text-gray-300 hover:text-white"
+            >
               Location
             </a>
             <a
